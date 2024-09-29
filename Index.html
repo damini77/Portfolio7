@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Full Stack Java Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+            <source src="Theme4.mp4" type="video/mp4">
+        </video>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <header id="home" class="hero-section text-white d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <h1 class="display-4">Hi I'm Damini<br><span class="text-gradient">Full Stack Java Developer</span></h1>
+            <p class="lead">Building scalable and high-performance web applications</p>
+        </div>
+    </header>
+
+    <!-- About Section with Image Transition -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-gradient">A Little About Me</h2>
+                    <p>I am a curious learner and an enthusiastic problem-solver, always striving for improvements in quality, efficiency, and creating a positive environment. I thrive on challenges and believe that they help me unlock my full potential.With
+                        hands-on experience in building web pages, I am continuously exploring ways to expand my skills. I am eager to contribute to a team that values innovation and encourages growth, where I can apply my knowledge and learn from real-world
+                        challenges.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="profile-img-container">
+                        <img src="Profile.png" alt="Profile" class="profile-img img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container text-center">
+            <h2>Technical Skills</h2><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-code fa-3x"></i>
+                    <h4>Backend Development</h4>
+                    <p>Developing backend systems using Java, Spring Boot, and databases like MySQL.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <h4>Frontend Development</h4>
+                    <p>Creating responsive and modern web applications using HTML, CSS, Bootstrap, and JavaScript frameworks.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-server fa-3x"></i>
+                    <h4>API Integration</h4>
+                    <p>Integrating RESTful APIs to connect front-end and back-end systems efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container text-center">
+            <h2>Recent Projects</h2><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-item">
+                        <img src="Project1.jpg" class="img-fluid" alt="Project 1">
+                        <h5>Portfolio</h5>
+                        <p>This portfolio website built with HTML, CSS, and Bootstrap to showcase my beginner-level Java projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-item">
+                        <img src="P2.jpg" class="img-fluid" alt="Project 2"><br>
+                        <h5>GUI Application</h5>
+                        <p> Java GUI application using Swing and hibernate that performs basic CRUD (Create, Read, Update, Delete) operations on a MySQL database.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-item">
+                        <img src="P3.jpg" class="img-fluid" alt="Project 3"><br>
+                        <h5>Registration Forms</h5>
+                        <p>User registration forms with Spring Boot, HTML, CSS, and MySQL.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center contact-heading">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:talmaledamini@gmail.com">talmaledamini@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> 8446062384</li>
+                        <li><i class="fab fa-whatsapp"></i> 8446062384</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h3>FIND ME ON</h3>
+                    <p>Feel free to connect with me</p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Full Stack Java Developer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
